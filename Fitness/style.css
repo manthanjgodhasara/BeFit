@@ -138,6 +138,7 @@ body {
 
 .video-container {
   margin-top: 30px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -185,7 +186,8 @@ iframe {
 @media screen and (max-width: 420px) {
   iframe {
       margin: 10px;
-      width: 360px;
+      height: 200px;
+      width: 280px;
   }
 
   .navbar li a {
@@ -216,14 +218,14 @@ iframe {
 }
 
 @media screen and (min-width: 420px) and (max-width: 600px) {
-  iframe {
+  iframe{
       width: 387px;
   }
 
-  .navbar li a {
-    font-size: 15px;
-    margin: 0 10px;
-  }
+    .navbar li a {
+      font-size: 15px;
+      margin: 0 10px;
+    }
 
     .sidenavbar {
         font-size: 22px;

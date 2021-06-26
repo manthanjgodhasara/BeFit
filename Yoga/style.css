@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f5f6fa;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.btn{
+    visibility:hidden;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li a {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #0096c7;
+    color: #f5f6fa;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.navbar li a:hover {
+    background-color: #f5f6fa;
+    color: #0096c7;
+    border: 1.5px solid #0096c7;
+}
+
+.navbar li .nav-active {
+    background-color: #f5f6fa;
+    color: #0096c7;
+    border: 1.5px solid #0096c7;
+}
+
+.content{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.content p{
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 35px;
+}
+
+.content img{
+    width: 400px;
+    height: 400px;
+}
+
+.title{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.yoga-posture{
+    margin-top: 75px;
+    margin-left: 150px;
+    margin-right: 100px;
+    text-align:center;
+}
+
+.yoga-posture h2{
+    text-align: left;
+    margin-top: 50px;
+}
+
+.yoga-posture h3{
+    text-align: left;
+}
+
+.yoga-posture p{
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 30px;
+    text-align:left;
+}
+
+.yoga-posture img{
+    width: 300px;
+    height: 300px;
+}
+
+.yoga-name{
+    color: #0281ac;
+}
+
+.steps{
+    margin-top: 30px;
+    text-align:left;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.last{
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 420px) {
+    .yoga-posture{
+        margin-left: 40px;
+        margin-right: 15px;
+    }
+
+    .yoga-posture img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .content img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .navbar li a {
+        padding: 10px 20px;
+        font-size: 12px;
+        margin: 0 10px;
+    }
+
+    .yoga-posture p{
+        font-size: 16px;
+    }
+    
+    .steps{
+        font-size: 16px;
+    }
+
+    .content p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+    .yoga-posture{
+        margin-left: 40px;
+        margin-right: 15px;
+    }
+
+    .yoga-posture img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .content img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .navbar li a {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+    .yoga-posture p{
+        font-size: 16px;
+    }
+    
+    .steps{
+        font-size: 16px;
+    }
+
+    .content p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+    .yoga-posture{
+        margin-left: 75px;
+        margin-right: 40px;
+    }
+}
