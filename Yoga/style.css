@@ -113,6 +113,14 @@ body{
     margin-bottom: 100px;
 }
 
+.up-icon{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #0096c7;
+    margin-bottom:20px;
+}
+
 @media screen and (max-width: 420px) {
     .yoga-posture{
         margin-left: 40px;
@@ -182,6 +190,8 @@ body{
         font-size: 17px;
     }
 }
+
+
 
 @media screen and (min-width: 600px) and (max-width: 850px) {
     .yoga-posture{
