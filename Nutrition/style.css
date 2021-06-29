@@ -119,11 +119,11 @@ span{
 }
 
 .up-icon{
-    display: flex;
-    justify-content: center;
+    position: fixed;
+    top: 600px;
+    right: 10px;
     font-size: 40px;
     color: #0096c7;
-    margin-bottom:20px;
 }
 
 .last{
@@ -169,6 +169,10 @@ span{
     .content p{
         font-size: 17px;
     }
+
+    .up-icon{
+        top: 450px;
+    }
 }
 
 @media screen and (min-width: 420px) and (max-width: 600px) {
@@ -209,6 +213,10 @@ span{
     .content p{
         font-size: 17px;
     }
+
+    .up-icon{
+        top: 450px;
+    }
 }
 
 
@@ -217,5 +225,9 @@ span{
     .nutrition-info{
         margin-left: 75px;
         margin-right: 40px;
+    }
+
+    .up-icon{
+        top: 450px;
     }
 }
