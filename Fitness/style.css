@@ -8,6 +8,7 @@
 body {
   background-color: #f5f6fa;
 }
+
 .content {
   display: none;
 }
@@ -52,6 +53,12 @@ body {
   font-size: 30px;
   margin-left: 30px;
   cursor: pointer;
+  color: black;
+}
+
+.fa-home{
+  margin-left: 0;
+  margin-right: 30px;
 }
 
 .btn:hover {
@@ -184,6 +191,22 @@ iframe {
 }
 
 @media screen and (max-width: 420px) {
+    .fas{
+        font-size: 25px;
+    }
+
+    .fa-bars{
+      margin-left: 10px;
+    }
+
+    .fa-home{
+      margin-right: 10px;
+    }
+  
+  .btn {
+    margin-left: 0px;
+  }
+
   iframe {
       margin: 10px;
       height: 200px;
@@ -191,6 +214,7 @@ iframe {
   }
 
   .navbar li a {
+    padding: 10px 15px;
     font-size: 12px;
     margin: 0 10px;
   }
@@ -217,7 +241,23 @@ iframe {
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 600px) {
+@media screen and (min-width: 420px) and (max-width: 600px){
+    .fas{
+        font-size: 25px;
+    }
+
+    .fa-bars{
+      margin-left: 20px;
+    }
+
+    .fa-home{
+      margin-right: 20px;
+    }
+  
+  .btn {
+    margin-left: 0px;
+  }
+  
   iframe{
       width: 387px;
   }
