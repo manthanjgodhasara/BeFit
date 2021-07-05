@@ -9,6 +9,12 @@ body {
   background-color: #f5f6fa;
 }
 
+.main-container{
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
 .content {
   display: none;
 }
@@ -76,6 +82,11 @@ body {
   list-style: none;
   font-size: 25px;
   transition: transform 250ms ease-in-out;
+  overflow-y: scroll;
+}
+
+.sidenavbar::-webkit-scrollbar {
+  display: none;
 }
 
 .disappear {
